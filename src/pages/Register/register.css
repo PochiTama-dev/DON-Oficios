@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.main-register form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main-register h3 {
+    margin-top: 60px;
+    font-size: 16px;
+    text-align: center;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.button-container button {
+    width: 80%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 13px;
+    gap: 10px;
+}
+
+.register-icon  {
+    width: 20px;
+    height: 20px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.button-container hr {
+    background: #cdadff;
+    height: 1px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.input-container input{
+    width: 80%;
+    height: 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    padding-left: 10px;
+    
+}
+
+.input-container input:focus {
+    background-color: #8133ff 1px solid;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.emailInput:focus {
+    border: #8133ff 2px solid;
+    transition: border-color 0.3s ease-in-out;
+    
+}
+.politicy-check{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    font-size: 12px;
+}
+
+.politicy-check input {
+    width: 15px;
+    height: 15px;
+   
+}
+
+.politicy-check p {
+    padding-left: 10px;
+}
+.button-creation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button-creation button{
+    width: 60%;
+    height: 24px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.button-creation p {
+    font-size: 10px;
+}
+.error-message {
+    
+    color: rgb(255, 21, 21);
+    text-align: center;
+  }
+  
+  .valid-message {
+    
+    color: rgb(23, 194, 17);
+  }
+
+  .error-message2 {
+    
+    color: rgb(255, 21, 21);
+    text-align: center;
+  }
+  
+  .valid-message2 {
+    
+    color: rgb(23, 194, 17);
+  }
+
+@media (min-width: 768px) {
+.main-register h3 {
+    font-size: 20px;
+    margin-top: 80px;
+}
+.button-container button {
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+}
+.input-container input {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+}
+.button-container hr {
+    width: 60%;
+}
+.politicy-check {
+    width: 60%;
+}
+.politicy-check {
+    font-size: 16px;
+}
+.politicy-check input {
+    width: 20px;
+        height: 20px;
+}
+.button-creation p {
+    font-size: 16px;
+}
+.button-creation button {
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+}
+.incorrect-Message{
+    color: rgb(206, 1, 52);
+    margin-top: -10px;
+}
+.green-text{
+    color: rgb(1, 206, 69);
+    
+}
+.error-message {
+    
+    color: rgb(255, 21, 21);
+  }
+  
+  .valid-message {
+    
+    color: rgb(23, 194, 17);
+  }
+
+  .error-message2 {
+    
+    color: rgb(255, 21, 21);
+  }
+  
+  .valid-message2 {
+    
+    color: rgb(23, 194, 17);
+  }
+
+
+
+}
+
+@media (min-width: 998px) {
+
+    .main-register h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .button-container button {
+        width: 40%;
+        border-radius: 30px;
+    }
+    .input-container input {
+        width: 40%;
+        height: 40px;
+        border-radius: 30px;
+    }
+    .button-container hr {
+        width: 40%;
+    }
+    .politicy-check {
+        width: 40%;
+    }
+    .politicy-check {
+        font-size: 16px;
+    }
+    .politicy-check input{
+        width: 20px;
+        height: 20px;
+    }
+    .button-creation p {
+        font-size: 16px;
+    }
+    .button-creation button {
+        width: 40%;
+        
+    }
+}
